@@ -1,0 +1,24 @@
+:root {
+    --br: 5px; 
+    --shadow: 0px 5px 8px 0px rgba(255, 255, 255, .3);   
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/espirales-3d-de-colores_2560x1440_xtrafondos.com.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, .5);
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    display: flex;
+    border-radius: var(--br);
+    box-shadow: var(--shadow);
+}
