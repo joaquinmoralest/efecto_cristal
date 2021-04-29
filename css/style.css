@@ -110,11 +110,12 @@ body {
 
 .content .task .right {
     width: 85%;
+    padding: 0 20px;
 }
 
-.content .task .right .task-title {
-    padding: 0px 20px;
-}
+/* .content .task .right .task-title {
+    fontsize
+} */
 
 .content .task .right .task-status {
     text-align: center;
@@ -122,5 +123,30 @@ body {
 }
 
 .content .task .right .task-progress {
-    
+    background-color: rgba(255, 255, 255, .7);
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.content .task .right .task-progress .progress-bar {
+    height: 10px;
+}
+
+.w-20 {
+    width: 20%;
+    height: 10px;
+    background-color: red;
+}
+
+.w-50 {
+    width: 50%;
+    height: 10px;
+    background-color: orange;
+}
+
+.w-100 {
+    width: 100%;
+    height: 10px;
+    background-color: green;
 }
