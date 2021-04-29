@@ -150,3 +150,20 @@ body {
     height: 10px;
     background-color: green;
 }
+
+.btn {
+    border: var(--border);
+    border-radius: var(--br);
+    background-color: rgba(32, 139, 238, 0.753);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.btn:hover {
+    box-shadow: var(--shadow);
+    color: #fff;
+}
